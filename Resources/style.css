@@ -1,0 +1,60 @@
+HTML{
+    /*font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;*/
+    font-family: "helvetica";
+    font-size: 16px;
+    color: darkslategrey;
+    background-color: white;
+}
+
+.main_container{
+    padding: 16px 24px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    height: 32px;
+}
+
+.header_nav{
+    display: flex;
+    align-items: center;
+    height: 32px; 
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+}
+
+li{
+    padding-left: 24px;
+}
+
+.full_width_backing{
+    width: 100%;
+    background-color:lightgray;
+}
+
+.hero{
+    display: flex;
+}
+
+.desk_hero{
+    width: 60%;
+    height: auto;
+    padding: 32px 24px;
+}
+
+.hero_items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
