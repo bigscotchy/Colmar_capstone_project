@@ -1,14 +1,50 @@
+/* Global Styles */
+
 HTML{
-    /*font-family: 'Roboto', sans-serif;
-    font-family: 'Montserrat', sans-serif;*/
-    font-family: "helvetica";
+    /*font-family: 'Roboto', sans-serif;*/
+    /*font-family: 'Montserrat', sans-serif;*/
+    /*font-family: "helvetica"*/;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: darkslategrey;
     background-color: white;
 }
 
+h1 {
+    font-size: 3rem;
+    margin: 0px;
+    margin-bottom: 24px;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+    ul a:link{color:  darkslategrey;}
+    ul a:visited{color: orange;}
+    ul a:hover{background-color: darkslategrey; color: aqua;}
+
+    p a:link{color:  whitesmoke;}
+    p a:visited{color: orange;}
+    p a:hover{color: aqua;}
+
+    .tile_items p a:link{color:  blue; text-decoration: none}
+    .tile_items p a:visited{color: orange;}
+    .tile_items p a:hover{color: aqua;}
+    
+
+
+.width_container1{
+    padding: 0px 24px;
+}
+/*.width_container2{
+    width:100%;
+}*/
+
+/* Hero content styles */
+
 .main_container{
-    padding: 16px 24px;
+    padding: 16px 0px;
 }
 
 header{
@@ -48,13 +84,81 @@ li{
 
 .desk_hero{
     width: 60%;
-    height: auto;
+    height: 80%;
     padding: 32px 24px;
 }
 
 .hero_items{
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+     padding: 32px 24px 32px 0px;
+}
+
+.start_button{
+    Width: 80%;
+    background-color: darkslategray;
+    margin-top: 2rem;
+}
+
+.start_button p {
+    background-color: darkslategray;
+    color: whitesmoke;
+    text-align: center;
+}
+
+
+/* Praciticing Content */
+
+.practicing_holder {
+    display: flex;
+    width:100%
+}
+
+.reading_section{
+    flex: 60%;
+    padding: 32px 24px 32px 24px;
+}
+
+.reading{
+    width: 100%;
+    margin-bottom: 32px;
+}
+
+#name{
+    font-size: 1rem;
+    margin-bottom: 0px;
+}
+.practicing_tiles{
+    flex: 35%;
+    flex-direction: column;
+}
+
+
+.tiles {
+    display: flex;
+    border: 1px solid lightgrey;
+}
+
+.tile_img {
+    width: 35%;
+    height: 50%;
+    padding: 16px;
+}
+
+.tile_items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.tile_items p{
+    margin: 8px 0px;
+}
+
+.tile_items h2{
+    margin: 8px 0px;
+}
+
+.tile3{
+    background-color: lightgray;
 }
