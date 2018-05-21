@@ -33,17 +33,14 @@ p {
     .tile_items p a:hover{color: aqua;}
     
 
-
-.width_container1{
+.width_container{
     padding: 0px 24px;
 }
-/*.width_container2{
-    width:100%;
-}*/
+
 
 /* Hero content styles */
 
-.main_container{
+.main_container1{
     padding: 16px 0px;
 }
 
@@ -117,7 +114,7 @@ li{
 
 .reading_section{
     flex: 60%;
-    padding: 32px 24px 32px 24px;
+    padding: 2rem 1.5rem 2rem 1.5rem;
 }
 
 .reading{
@@ -129,6 +126,7 @@ li{
     font-size: 1rem;
     margin-bottom: 0px;
 }
+
 .practicing_tiles{
     flex: 35%;
     flex-direction: column;
@@ -140,9 +138,9 @@ li{
     border: 1px solid lightgrey;
 }
 
-.tile_img {
+.tiles img {
     width: 35%;
-    height: 50%;
+    height: auto;
     padding: 16px;
 }
 
@@ -152,13 +150,238 @@ li{
     justify-content: center;
 }
 .tile_items p{
-    margin: 8px 0px;
+    margin: 0.5rem 0rem;
 }
 
 .tile_items h2{
-    margin: 8px 0px;
+    margin: 0.5rem 0rem;
 }
 
 .tile3{
     background-color: lightgray;
 }
+
+/* Start section */
+
+.start_section{
+    background-color: lightgray;
+}
+
+.start_section h1{
+    margin: 0px;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.flex_container{
+    display:flex;
+    flex-flow: wrap;
+    padding: 0px 42px;
+    height: auto;
+}
+
+.start_items{
+    width: 532px;
+    margin: 2rem;
+    background-color: white;
+    color: slategray;
+}
+
+.item_text{
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+}
+
+/* start section */
+
+.start_section img{
+    display: none;
+}
+/* Thesis section */
+.thesis_container h1{
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.thesis_holder{
+    display: flex;
+}
+
+.thesis_section{
+    flex: 60%;
+    margin: 0rem 1.5rem;
+}
+
+.vid_holder{
+    width:100%;
+}
+
+.thesis_section h2{
+    padding-top: 1.5rem;
+}
+
+.thesis_section p{
+    padding-top: 0.5rem;
+    padding-bottom: 2rem;
+}
+
+/* Footer Section */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+    border-top: 1px solid lightgray;
+    
+}
+
+@media only screen and (min-width:601px){
+.main_container2{
+    display: none;        
+}
+    
+}
+@media only screen and (max-width:600px){
+    body{
+        background-color: aliceblue;
+    }
+    .main_container1{
+        display: none;
+    }
+    
+    .main_container2{
+        display: flex;
+        justify-content: space-around;
+        height: 4rem;
+        align-content: center;
+        align-items: center;
+    }
+    
+    .hero{
+        width: 100%;
+        display:flex;
+        flex-direction: column;
+    }
+    .desk_hero{
+        width: 100%;
+        padding: 0px;
+    }
+    
+    .hero_items{
+        padding: 2rem 1rem;
+    }
+    
+    .hero_items h1{
+        margin: 0px;
+        padding: 0px;
+    }
+    .hero_items h2{
+        margin: 0px;
+        padding-top: 2rem;
+        padding-bottom: 1.5rem;
+    }
+    .start_button{
+        Width: 100%;
+        background-color: darkslategray;
+        margin-top: 1.5rem;
+    }
+    
+    /* practicing section */
+    
+    .width_container{
+        width: 100%;
+        padding: 0px;
+    }
+    
+    .practicing_holder{
+        width: 100%;
+    }
+    
+    .reading_section{
+        display: none;
+    }
+    
+    .practicing_tiles{
+        width: 100%;
+        border: none;
+    }
+    
+    .tiles{
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        border: none;
+    }
+
+    .tiles img{
+        width: Auto;
+        padding: 0rem;
+        margin: 0rem 1rem;
+    }
+    
+    .tile_items{
+        padding: 4rem 2rem;
+    }
+    
+    .tiles.tile3{
+        background-color: aliceblue;
+    }
+    
+    .labels{
+        display: none;
+    }
+    
+    .item_text p{
+        display: none;
+    }
+    
+    .main_title{
+        color: darkslategray;
+    }
+    
+    .start_section{
+    background-color: aliceblue;
+}
+    
+    .start_section h1{
+        padding: 2rem 0rem 0.5rem 0rem; 
+    }
+    
+    .start_items{
+        Margin: 0.5rem;
+    }
+    
+    .item_text{
+        padding: 1rem 1rem 2rem 1rem;
+        background-color: lightgray;
+    }
+    
+    .flex_container{
+        padding-bottom: 2rem;
+    }
+    
+    /*Thesis */
+    
+    .thesis_tiles{
+        display: none;
+    }
+    
+    .thesis_section{
+        margin: 0rem;
+    }
+    .thesis_section h2 {
+        display: none;
+    }
+    
+    .vid_holder{
+        margin-bottom: 1.5rem;
+    }
+    
+        
+    .thesis_section p{
+        display: none;
+    }
+    
+    /* footer */
+    
+    
